@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -47,6 +48,10 @@ export default function Home() {
           >
             Read our docs
           </a>
+          <a style={{ width: '200px', height: '100px', backgroundColor: 'green' }}>
+            <Link href="/page2" className="text-blue-500 hover: underline"> Go to page 2 </Link>
+            RECTANGULO
+          </a> 
         </div>
       </main>
       <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
